@@ -37,10 +37,10 @@ public class Island extends Player(){
 	    healthCheck(); 
 	    numFood = numFood - 2; 
 	    numWater = numWater - 2; 
-	    if numDays = 20 {
+	    if numDays = 10 {
 		    System.out.println("A rescue boat has come!”);
 	    }
-	    if numDays != 20 {
+	    if numDays != 10 {
 		    numDays++;
 		  }
 	    return "Days left: " + numDays;
